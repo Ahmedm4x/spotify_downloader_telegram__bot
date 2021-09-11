@@ -18,7 +18,7 @@ genius = lyricsgenius.Genius('biZZReO7F98mji5oz3cE0FiIG73Hh07qoXSIzYSGNN3GBsnY-e
 if 'BOT_TOKEN' in os.environ:
     token = os.environ.get('BOT_TOKEN')
 else:
-    token = 'token bot'
+    token = '1951198467:AAFBfyc1tGFDmaCELKlT_TVX-LISHX45yfc'
 
 bot = telepot.Bot(token)
 
