@@ -79,44 +79,12 @@ def START(msg,chat_id):
             downloader(msg,chat_id,'AR')
 
     elif msg == "/start":
-        bot.sendMessage(chat_id,
-                        "StopPropagation, InlineKeyboardButton, InlineKeyboardMarkup
-
-
-
-
-
-
-
-@Client.on_message(Filters.command(["start"]), group=-2)
-
-async def start(client, message):
-
-    # return
-
-    joinButton = InlineKeyboardMarkup([
-
-        [InlineKeyboardButton("Channel", url="https://t.me/LanaDelReyEN")],
-
-        [InlineKeyboardButton(
-
-            "Spotify Bot", url="https://t.me/SpotifyDownloadderBot")],
-
-        [InlineKeyboardButton(
-
-            "Report Bugs 🤦🏻‍♂️", url="https://t.me/ccc_l")],
-
-
-
-
-    ])
-
-    welcomed = f"Hey <b>{message.from_user.first_name}</b>\n/help for More info"
-
-    await message.reply_text(welcomed, reply_markup=joinButton)
-
-")
-
+        sort[chat_id]='start'
+        bot.sendMessage(chat_id, 'Hi 
+send me spotify link and I'll give you music
+or use /single or /album or /artist
+join to out channel for more news about the bot @SpotifyMusicNews ')
+                        
     elif msg == "/album":
         sort[chat_id]='album'
         bot.sendMessage(chat_id, 'send name and name of artist like this: \nName album\nor for better search use this:\nName album - Name artist')
