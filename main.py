@@ -79,7 +79,6 @@ def START(msg,chat_id):
             downloader(msg,chat_id,'AR')
 
     elif msg == "/start":
-        sort[chat_id]='start'
         bot.sendMessage(chat_id, 'Hi 
 send me spotify link and I'll give you music
 or use /single or /album or /artist
