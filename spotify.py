@@ -16,7 +16,7 @@ spotifyy = spotipy.Spotify(
 genius = lyricsgenius.Genius('biZZReO7F98mji5oz3cE0FiIG73Hh07qoXSIzYSGNN3GBsnY-eUrPAVSdJk_0_de')
 
 if 'BOT_TOKEN' in os.environ:
-    token = os.environ.get('1964441944:AAEYPy3kdPQ2TOz9YTshfUf9Mokmo1TFCnU')
+    token = os.environ.get('1964441944:1985175550:AAHzBHFjoOKN4gYAcvdSuRiCMCv5KIlaU18')
 else:
     token = 'token bot'
 
